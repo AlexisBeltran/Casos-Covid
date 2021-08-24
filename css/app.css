@@ -13,20 +13,6 @@ p{
     max-width: 85rem;
     margin: 0 auto;
 }
-@media (min-width: 448px){
-    .info-covid{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media (min-width: 768px){
-    .info-covid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
-    }
-}
 .no-margin{
     margin: 0;
 }
@@ -39,32 +25,6 @@ p{
     background: -moz-linear-gradient(top left, #7DA3F1, #F9FEFF);
     background: linear-gradient(to bottom right, #7DA3F1, #F9FEFF);
     height: 100vh;
-}
-@media (min-width: 268px) and (max-width: 339px){
-    img{
-        width: 20rem;
-    }
-    label{
-        text-align: center;
-    }
-    #Formulario{
-        padding-top: 2rem;
-    }
-}
-@media (min-width: 340px) and (max-width: 447px){
-    img{
-        width: 30rem;
-    }
-}
-@media (min-width: 448px){
-    .seccion{
-        padding-bottom: 0;
-    }
-}
-@media (min-width: 768px){
-    .seccion{
-        padding: 10rem 0;
-    }
 }
 label{
     display: block;
@@ -162,3 +122,44 @@ option{
       -webkit-transform: scale(1.0);
     }
   }
+
+@media (min-width: 268px) and (max-width: 339px){
+    img{
+        width: 20rem;
+    }
+    label{
+        text-align: center;
+    }
+    #Formulario{
+        padding-top: 2rem;
+    }
+}
+@media (min-width: 340px) and (max-width: 447px){
+    img{
+        width: 30rem;
+    }
+}
+@media (min-width: 448px){
+    .seccion{
+        padding-bottom: 0;
+    }
+}
+@media (min-width: 768px){
+    .seccion{
+        padding: 10rem 0;
+    }
+}
+@media (min-width: 448px){
+    .info-covid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 768px){
+    .info-covid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
