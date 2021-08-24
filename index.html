@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="no-margin">
+    <div class="fondo">
+        <div class="info-covid contenedor seccion">
+            <img src="img/Covid-19.png" alt="Covid">
+            <form action="" id="Formulario">
+                <div class="Estado">
+                    <label for="estado">Selecciona tu estado</label>
+                    <select name="estado" id="estado">
+                        <option value="">Elige tu estado</option>
+                    </select>
+                </div>
+                <div class="buscar-info">
+                    <input type="submit" value="Buscar" id="buscar" class="buscar">
+                </div>
+                <div id="resultado"></div>
+            </form>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
